@@ -49,6 +49,11 @@ body {
       align-items: center;
       padding: 40px;
       border-radius: 12px;
+
+      .name {
+        font-size: $font-size-heading;
+        font-weight: $font-weight-bold;
+      }
     }
   }
 

@@ -32,6 +32,10 @@ body .main .card {
   padding: 40px;
   border-radius: 12px;
 }
+body .main .card .name {
+  font-size: 23px;
+  font-weight: 600;
+}
 body .attribution {
   text-align: center;
   padding: 8px 0;
