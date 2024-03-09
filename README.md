@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Social links card desktop version](social-links-desktop-screenshot.png)
-![Social links card mobile version](social-links-mobile-screenshot.png)
+![Social links card desktop version](./assets/images/social-links-desktop-screenshot.png)
+![Social links card mobile version](./assets/images/social-links-mobile-screenshot.png)
 
 ### Links
 
