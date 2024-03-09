@@ -1,0 +1,24 @@
+/* SASS file to be compiled into CSS */
+
+/* Font import */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* Variables */
+
+$green: hsl(75, 94%, 57%);
+$white: hsl(0, 0%, 100%);
+$grey: hsl(0, 0%, 20%);
+$dark_grey: hsl(0, 0%, 12%);
+$off_black: hsl(0, 0%, 8%);
+
+$font_family: 'Inter', sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+$font-weight-xbold: 700;
+
+$font-size-main: 14px;
+$font-size-heading: 23px;
