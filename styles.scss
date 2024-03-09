@@ -3,8 +3,8 @@
 /* Font import */
 
 @font-face {
-  font-family: 'Inter';
-  src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
 
 /* Variables */
@@ -15,7 +15,7 @@ $grey: hsl(0, 0%, 20%);
 $dark_grey: hsl(0, 0%, 12%);
 $off_black: hsl(0, 0%, 8%);
 
-$font_family: 'Inter', sans-serif;
+$font_family: "Inter", sans-serif;
 $font-weight-normal: 400;
 $font-weight-bold: 600;
 $font-weight-xbold: 700;
@@ -38,12 +38,24 @@ body {
 
   .main {
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+      background-color: $dark_grey;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      border-radius: 12px;
+    }
   }
 
   .attribution {
     text-align: center;
     padding: 8px 0;
-    
+
     a {
       text-decoration: none;
       color: $green;
