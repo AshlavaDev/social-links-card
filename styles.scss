@@ -73,11 +73,13 @@ body {
         .name {
           font-size: $font-size-heading;
           font-weight: $font-weight-bold;
+          line-height: 150%;
         }
 
         .location {
           color: $green;;
           font-weight: $font-weight-xbold;
+          line-height: 150%;
         }
       }
 
@@ -96,6 +98,7 @@ body {
           border-radius: 8px;
           text-align: center;
           font-weight: $font-weight-bold;
+          line-height: 150%;
 
           &:hover {
             background-color: $green;

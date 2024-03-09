@@ -54,10 +54,12 @@ body .main .card .personal {
 body .main .card .personal .name {
   font-size: 24px;
   font-weight: 600;
+  line-height: 150%;
 }
 body .main .card .personal .location {
   color: hsl(75, 94%, 57%);
   font-weight: 700;
+  line-height: 150%;
 }
 body .main .card .links {
   list-style-type: none;
@@ -74,6 +76,7 @@ body .main .card .links .link {
   border-radius: 8px;
   text-align: center;
   font-weight: 600;
+  line-height: 150%;
 }
 body .main .card .links .link:hover {
   background-color: hsl(75, 94%, 57%);
