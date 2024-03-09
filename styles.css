@@ -1,0 +1,36 @@
+/* SASS file to be compiled into CSS */
+/* Font import */
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+/* Variables */
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+body .main {
+  min-height: 100vh;
+}
+body .attribution {
+  text-align: center;
+  padding: 8px 0;
+}
+body .attribution a {
+  text-decoration: none;
+  color: hsl(75, 94%, 57%);
+}
+body .attribution a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

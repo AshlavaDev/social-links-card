@@ -22,3 +22,35 @@ $font-weight-xbold: 700;
 
 $font-size-main: 14px;
 $font-size-heading: 23px;
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font_family;
+  font-size: $font-size-main;
+  background-color: $off_black;
+  color: $white;
+
+  .main {
+    min-height: 100vh;
+  }
+
+  .attribution {
+    text-align: center;
+    padding: 8px 0;
+    
+    a {
+      text-decoration: none;
+      color: $green;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
