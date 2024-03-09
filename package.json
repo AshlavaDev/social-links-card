@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "prettier": "3.2.5"
+  },
+  "scripts": {
+    "prettier": "prettier --write .",
+    "css-build": "sass styles.scss styles.css",
+    "css-watch": "sass --watch styles.scss:styles.css"
+  }
+}
