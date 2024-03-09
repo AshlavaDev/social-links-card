@@ -35,6 +35,7 @@ body {
   font-size: $font-size-main;
   background-color: $off_black;
   color: $white;
+  line-height: 150%;
 
   .main {
     min-height: 100vh;
@@ -47,13 +48,56 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 24px;
+      width: 327px;
+
+      @media screen and (min-width: 600px){
+        width: 384px;
+      }
+
       padding: 40px;
       border-radius: 12px;
 
-      .name {
-        font-size: $font-size-heading;
-        font-weight: $font-weight-bold;
+      .personal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+
+        .name {
+          font-size: $font-size-heading;
+          font-weight: $font-weight-bold;
+        }
+
+        .location {
+          color: $green;;
+          font-weight: $font-weight-xbold;
+        }
       }
+
+      .links {
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        .link {
+          width: 100%;
+          padding: 12px 0;
+          background-color: $grey;
+          border-radius: 8px;
+          text-align: center;
+          font-weight: $font-weight-bold;
+
+          &:hover {
+            background-color: $green;
+            color: $grey;
+          }
+        }
+      }
+
     }
   }
 

@@ -17,6 +17,7 @@ body {
   font-size: 14px;
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
+  line-height: 150%;
 }
 body .main {
   min-height: 100vh;
@@ -29,12 +30,49 @@ body .main .card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px;
+  width: 327px;
   padding: 40px;
   border-radius: 12px;
 }
-body .main .card .name {
+@media screen and (min-width: 600px) {
+  body .main .card {
+    width: 384px;
+  }
+}
+body .main .card .personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+body .main .card .personal .name {
   font-size: 23px;
   font-weight: 600;
+}
+body .main .card .personal .location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+}
+body .main .card .links {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+body .main .card .links .link {
+  width: 100%;
+  padding: 12px 0;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+body .main .card .links .link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
 }
 body .attribution {
   text-align: center;
