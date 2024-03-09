@@ -40,6 +40,11 @@ body .main .card {
     width: 384px;
   }
 }
+body .main .card .avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
 body .main .card .personal {
   display: flex;
   flex-direction: column;

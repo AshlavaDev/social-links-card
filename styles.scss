@@ -58,6 +58,12 @@ body {
       padding: 40px;
       border-radius: 12px;
 
+      .avatar {
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+      }
+
       .personal {
         display: flex;
         flex-direction: column;
